@@ -1,5 +1,5 @@
 // Set the date we're counting down to
-var countDownDate = new Date("Mar 16, 2023 ").getTime();
+var countDownDate = new Date("Mar 16, 2023 00:00:00").getTime();
 
 // Update the countdown every 1 second
 var x = setInterval(function() {
@@ -23,7 +23,7 @@ var x = setInterval(function() {
   // If the countdown is over, display a message
   if (timeRemaining < 0) {
     clearInterval(x);
-    document.getElementById("countdown").innerHTML = "EXPIRED";
+    document.getElementById("countdown").innerHTML = "Congratulation for one year annivarsary, Happy one year annivarsary Mar Marr I LOVE YOU more and more.";
   }
 }, 1000);
 
